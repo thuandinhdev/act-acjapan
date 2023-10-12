@@ -164,14 +164,17 @@ class CMsPrizeEntry extends ActionForm {
 		'title' => array(
 				'caption' => '作品タイトル',
 				'max' => 255,
+				'required' => true,
 		),
 		'theme' => array(
 				'caption' => '作品テーマ',
 				'max' => 20,
+				'required' => true,
 		),
 		'intention' => array(
 				'caption' => '企画意図・狙い',
 				'max' => 150,
+				'required' => true,
 		),
 		'staff_count' => array(
 				'caption' => '登録スタッフ数',
