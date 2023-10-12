@@ -72,6 +72,10 @@ class ActionEditProduct extends CMsPrizeEntry {
 		
 		$this->template['receipt_dvd']['allowInput'] = false;//DVD受付年月日
 		$this->template['note']['allowInput'] = false;//備考
+
+		$this->template['title']['required'] = true;
+		$this->template['theme']['required'] = true;
+		$this->template['intention']['required'] = true;
 		
 
 	}
